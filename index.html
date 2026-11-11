@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#351526">
+<title>عالم همس ❤️</title>
+<style>
+:root{--wine:#351526;--wine2:#54243d;--pink:#f6bfd1;--rose:#d65b83;--cream:#fff0f5;--gold:#e9c98a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#1c1019;color:var(--cream);font-family:Tahoma,Arial,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-2;background:radial-gradient(circle at 15% 15%,#71334d 0,transparent 32%),radial-gradient(circle at 85% 70%,#4d263d 0,transparent 35%),linear-gradient(145deg,#1c1019,#351526 55%,#1b101a)}
+a{color:inherit}.petals{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:5}.petal{position:absolute;top:-12vh;color:#f4a9c1;opacity:.7;animation:fall linear infinite;text-shadow:0 0 12px #ffb4ce}
+@keyframes fall{to{transform:translate3d(45px,115vh,0) rotate(480deg)}}
+.stars{position:fixed;inset:0;pointer-events:none;z-index:-1;background-image:radial-gradient(2px 2px at 15% 22%,#fff8 50%,transparent 60%),radial-gradient(1px 1px at 72% 18%,#fff9 50%,transparent 60%),radial-gradient(2px 2px at 84% 62%,#ffd5e8aa 50%,transparent 60%),radial-gradient(1px 1px at 35% 78%,#fff9 50%,transparent 60%);background-size:280px 240px;animation:twinkle 4s ease-in-out infinite alternate}
+@keyframes twinkle{to{opacity:.35}}
+.wrap{width:min(940px,92%);margin:auto}.hero{min-height:100svh;display:grid;place-items:center;text-align:center;padding:42px 0;position:relative}
+.hero-card{width:min(700px,100%);padding:clamp(25px,6vw,58px);border:1px solid #f5c4d344;border-radius:30px;background:linear-gradient(145deg,#4a2037dd,#241522eF);box-shadow:0 25px 90px #0007;backdrop-filter:blur(8px)}
+.eyebrow{color:var(--gold);letter-spacing:3px;font-size:.8rem}.hero h1{font-size:clamp(2.5rem,8vw,5rem);margin:14px 0;color:#ffe4ed;text-shadow:0 5px 28px #ed7fa566}.hero p{line-height:2;font-size:clamp(1rem,3vw,1.25rem);color:#f9dce7}
+.rose-line{font-size:2rem;letter-spacing:8px;margin:15px 0}.btn{border:0;border-radius:999px;padding:14px 27px;background:linear-gradient(110deg,#f2a8c0,#bd456f);color:#351526;font-weight:bold;font-size:1rem;cursor:pointer;box-shadow:0 9px 28px #d65b8355;transition:.25s}.btn:hover{transform:translateY(-3px);filter:brightness(1.08)}
+section{padding:70px 0}.section-title{text-align:center;font-size:clamp(1.8rem,5vw,2.6rem);color:#ffd9e5;margin:0 0 12px}.sub{text-align:center;color:#e9b9ca;line-height:1.9;margin:0 auto 30px;max-width:650px}
+.card{background:linear-gradient(145deg,#51253eeb,#2b1928f2);border:1px solid #f5c4d333;border-radius:25px;padding:clamp(20px,4vw,35px);box-shadow:0 18px 50px #0004}
+.letter{font-size:1.08rem;line-height:2.25;color:#ffedf3;white-space:pre-line;min-height:130px}.signature{text-align:center;color:#ffc5d8;font-size:1.4rem;margin-top:25px}
+.timeline{max-width:700px;margin:auto;position:relative}.timeline:before{content:"";position:absolute;right:18px;top:10px;bottom:10px;width:2px;background:linear-gradient(#f6bfd1,#b84a73)}
+.event{position:relative;margin:0 0 18px;padding:20px 55px 20px 20px;background:#492239cc;border:1px solid #f5c4d333;border-radius:18px}.event:before{content:"❤";position:absolute;right:5px;top:21px;color:#ff9fbd;font-size:1.3rem}.date{color:var(--gold);font-weight:bold;margin-bottom:7px}.event p{margin:0;color:#ffe5ed;line-height:1.8}
+.photo-frame{max-width:560px;margin:auto;padding:12px;background:#fff0f5;border-radius:12px;box-shadow:0 18px 55px #0007;transform:rotate(-1deg)}.photo-frame img{width:100%;display:block;max-height:650px;object-fit:contain;background:#ead9df;border-radius:5px}.photo-caption{color:#69304a;text-align:center;padding:14px 8px 5px;font-size:1rem;line-height:1.8}
+.counter{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:25px auto 15px;max-width:650px}.unit{background:#241522aa;border:1px solid #f5c4d355;border-radius:17px;padding:18px 8px;text-align:center}.num{font-size:clamp(1.5rem,5vw,2.5rem);font-weight:bold;color:#fff}.unit span{display:block;color:#f2b9cd;margin-top:5px}
+.secret{max-width:620px;margin:auto;text-align:center}.envelope{font-size:5rem;cursor:pointer;filter:drop-shadow(0 8px 20px #e66b9b55);transition:.3s}.envelope:hover{transform:scale(1.08) rotate(-4deg)}.secret-message{display:none;margin-top:20px;padding:24px;border-radius:20px;background:#fff0f5;color:#812e50;font-size:clamp(1.25rem,4vw,2rem);line-height:1.8;animation:pop .5s ease}
+@keyframes pop{from{opacity:0;transform:scale(.85)}to{opacity:1;transform:scale(1)}}
+.hearts{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin-top:25px}.heart{font-size:2rem;cursor:pointer;transition:.25s;filter:drop-shadow(0 0 10px #f58fb5)}.heart:hover{transform:scale(1.3)}.heart-note{min-height:35px;text-align:center;color:#ffd3e1;margin-top:15px;font-size:1.1rem}
+.reasons-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:20px}
+.reason-card{background:#492239cc;border:1px solid #f5c4d344;border-radius:20px;padding:22px;text-align:center;cursor:pointer;transition:.3s;box-shadow:0 10px 30px #0003}
+.reason-card:hover{transform:translateY(-4px);border-color:var(--gold);background:#562944cc}
+.reason-title{color:var(--gold);font-weight:bold;font-size:1.15rem;margin-bottom:10px}
+.reason-text{color:#ffe5ed;font-size:1rem;line-height:1.7;display:none}
+.reason-card.active .reason-text{display:block}
+.reason-card.active .reason-hint{display:none}
+.reason-hint{color:#e9b9ca;font-size:.9rem}
+.quiz-container{max-width:650px;margin:auto}
+.quiz-step{background:#492239cc;border:1px solid #f5c4d333;border-radius:20px;padding:25px;margin-bottom:20px;box-shadow:0 10px 30px #0003}
+.quiz-question{color:#ffe4ed;font-size:1.15rem;font-weight:bold;margin-bottom:15px;line-height:1.8}
+.quiz-options{display:flex;flex-direction:column;gap:10px}
+.quiz-btn{background:#351526;border:1px solid #f5c4d355;border-radius:12px;padding:12px 18px;color:#f9dce7;text-align:right;cursor:pointer;font-family:inherit;font-size:1rem;transition:.25s}
+.quiz-btn:hover{background:#54243d;color:#fff;border-color:var(--gold)}
+.quiz-result{margin-top:12px;padding:12px;border-radius:10px;background:#fff0f5;color:#812e50;font-weight:bold;font-size:1.05rem;display:none}
+.music-box{text-align:center;max-width:620px;margin:auto}.music-help{color:#edc4d2;line-height:1.9;font-size:.93rem}.file-input{display:block;margin:18px auto;color:#ffe5ed;max-width:100%}
+footer{text-align:center;padding:40px 15px 55px;color:#f2b9cd}footer strong{display:block;color:#ffdce7;font-size:1.5rem;margin-top:10px}
+.hidden{display:none!important}
+@media(max-width:560px){section{padding:52px 0}.counter{grid-template-columns:repeat(2,1fr)}.event{padding-left:14px}.hero-card{border-radius:22px}}
+</style>
+</head>
+<body>
+<div class="stars"></div><div class="petals" id="petals"></div>
+<header class="hero" id="top"><div class="wrap"><div class="hero-card">
+<div class="eyebrow">A LITTLE WORLD MADE FOR YOU</div>
+<div class="rose-line">🌹 💗 🌹</div>
+<h1>أهلًا يا همس</h1>
+<p>في هدية صغيرة مستنياكي...<br>بس قبل ما تدخلي لازم تعرفي إنك أغلى إنسانة عندي.</p>
+<button class="btn" id="enter">ابدئي حكايتنا ❤️</button>
+<p style="font-size:.82rem;color:#e9b9ca;margin-top:18px">اضغطي هنا عشان تبدأ الحكاية والموسيقى 🎵</p>
+</div></div></header>
+<main id="main" class="hidden">
+<section><div class="wrap"><h2 class="section-title">رسالة من قلبي ليكي 💌</h2><p class="sub">كلام يمكن ميكفيش يوصف مكانتك عندي، لكنه طالع من قلبي.</p><div class="card"><div class="letter" id="letter"></div><div class="signature">بحبك يا همس ❤️</div></div></div></section>
+<section><div class="wrap"><h2 class="section-title">ليه بحبك؟ 💖</h2><p class="sub">اضغطي على كل بطاقة عشان تعرفي سبب من الأسباب.</p>
+<div class="reasons-grid">
+<div class="reason-card" onclick="this.classList.toggle('active')"><div class="reason-title">ضحكتك 🥰</div><div class="reason-hint">اضغطي هنا لاكتشاف السر ✨</div><div class="reason-text">ضحكتك.. اللي بتغير يومي كله وتخليه منور مهما كان متعب.</div></div>
+<div class="reason-card" onclick="this.classList.toggle('active')"><div class="reason-title">طيبة قلبك 🌸</div><div class="reason-hint">اضغطي هنا لاكتشاف السر ✨</div><div class="reason-text">طيبة قلبك.. واهتمامك بأدق التفاصيل اللي بتثبت لي دايماً قد إيه إنتِ نقية.</div></div>
+<div class="reason-card" onclick="this.classList.toggle('active')"><div class="reason-title">وجودك وسندي 🛡️</div><div class="reason-hint">اضغطي هنا لاكتشاف السر ✨</div><div class="reason-text">وجودك جنبي.. السند الحقيقي والأمان اللي لقيته معاكي ومنستوش أبداً.</div></div>
+<div class="reason-card" onclick="this.classList.toggle('active')"><div class="reason-title">طريقتك وكلامك ✨</div><div class="reason-hint">اضغطي هنا لاكتشاف السر ✨</div><div class="reason-text">طريقتك وأنتِ بتتكلمي.. بجد بنسى معاكي كل الدنيا والدنيا بتوقّف.</div></div>
+</div></div></section>
+<section><div class="wrap"><h2 class="section-title">اختبار الحب الخفيف 😉</h2><p class="sub">اختاري الإجابة وشوفي رد الفعل الفوري!</p><div class="quiz-container">
+<div class="quiz-step"><div class="quiz-question">1. مين أكتر واحد بيتعصب أسرع؟</div><div class="quiz-options"><button class="quiz-btn" onclick="showQuizResult(this, 'ر 1')">محمد (أنا طبعا 😅)</button><button class="quiz-btn" onclick="showQuizResult(this, 'ر 1')">همس العصبية العسولة 🌸</button><button class="quiz-btn" onclick="showQuizResult(this, 'ر 1')">بنتعصب سوا</button></div><div class="quiz-result" id="ر 1">حتي وأنتِ متعصبة بتكوني قمر وفي ألطف حالاتك! ❤️</div></div>
+<div class="quiz-step"><div class="quiz-question">2. مين بيختار مكان الخروجة أو الفيلم دايماً؟</div><div class="quiz-options"><button class="quiz-btn" onclick="showQuizResult(this, 'ر 2')">ذوق همس طبعاً ✨</button><button class="quiz-btn" onclick="showQuizResult(this, 'ر 2')">ذوقي أنا</button><button class="quiz-btn" onclick="showQuizResult(this, 'ر 2')">بنتناقش للصبح</button></div><div class="quiz-result" id="ر 2">مش مهم المكان، المهم إننا قاعدين سوا يا همس! 🥰</div></div>
+<div class="quiz-step"><div class="quiz-question">3. إيه أكتر حاجة بحبها فيكِ؟</div><div class="quiz-options"><button class="quiz-btn" onclick="showQuizResult(this, 'ر 3')">ضحكتك وروحك الحلوة ❤️</button><button class="quiz-btn" onclick="showQuizResult(this, 'ر 3')">طيبة قلبك وحنيتك 🥰</button><button class="quiz-btn" onclick="showQuizResult(this, 'ر 3')">كل تفصيلة فيكي من راسك لحد رجلجكي 😉</button></div><div class="quiz-result" id="ر 3">إجابة صحيحة ومليون في المية.. بحبك بكل ما فيكي! 🔥</div></div>
+<div class="quiz-step"><div class="quiz-question">4. هتبعتي الصورة امتي علشان انا تعبان؟ ❤😂😂</div><div class="quiz-options"><button class="quiz-btn" onclick="showCustomResult(this, 'res4', 'ياه مستعجلة عاوزني مبسوط للدرجه ❤😂😂')">1. دلوقتي حالا يا حياتي</button><button class="quiz-btn" onclick="showCustomResult(this, 'res4', 'اععععع مش هستني علشان عيونك القمر 🥺❤️')">2. حاضر بس مش هعرف دلوقتى</button><button class="quiz-btn" onclick="showCustomResult(this, 'res4', 'ماشي يا حيوانه ليا حساب معاكي بعدين 😑😂😂')">3. مش هعرف خالص</button><button class="quiz-btn" onclick="showCustomResult(this, 'res4', 'ماشي براحتك 🙂')">4. فكرت ومش عاوزه بصراحه</button></div><div class="quiz-result" id="res4"></div></div>
+</div></div></section>
+<section><div class="wrap"><h2 class="section-title">أيام محفورة في قلبي 🌹</h2><p class="sub">أربع تواريخ، وكل واحد فيهم ليه حكاية ومكانة.</p><div class="timeline">
+<div class="event"><div class="date">3 سبتمبر 2026 💬</div><p>أول يوم كلمتك فيه.</p></div><div class="event"><div class="date">5 سبتمبر 2026 💌</div><p>أول مرة أقولك فيها بحبك.</p></div><div class="event"><div class="date">26 أكتوبر 2026 🥹</div><p>أول مقابلة بينا.</p></div><div class="event"><div class="date">9 نوفمبر 2026 ✨</div><p>يوم مميز لينا.</p></div>
+</div></div></section>
+<section><div class="wrap"><h2 class="section-title">أول صورة لينا سوا 📸</h2><p class="sub">ذكرى من أجمل ذكرياتي معاكي يا همس.</p><div class="photo-frame"><img src="assets/awel_zekra.jpg" alt="أول صورة تجمعنا"><div class="photo-caption">أول صورة جمعتنا.. يمكن تكون صورة عادية عند أي حد، بس بالنسبالي دي ذكرى من أجمل ذكرياتي معاكي يا همس. ❤️</div></div></div></section>
+<section><div class="wrap"><h2 class="section-title">من أول رسالة.. والوقت بيعدّي وإنتِ أجمل حاجة فيه ❤️</h2><p class="sub">من يوم 3 سبتمبر 2026 لحد اللحظة دي.</p><div class="counter" id="counter"><div class="unit"><div class="num" id="days">0</div><span>يوم</span></div><div class="unit"><div class="num" id="hours">00</div><span>ساعة</span></div><div class="unit"><div class="num" id="minutes">00</div><span>دقيقة</span></div><div class="unit"><div class="num" id="seconds">00</div><span>ثانية</span></div></div><p class="sub">وكل ثانية بتعدّي، بحبك أكتر ❤️</p></div></section>
+<section><div class="wrap"><h2 class="section-title">رسالة سرية ليكي 💌</h2><p class="sub">في ظرف صغير مستنيكي.. افتحيه.</p><div class="card secret"><div class="envelope" id="envelope" role="button" tabindex="0" aria-label="افتحي الرسالة">💌</div><button class="btn" id="openLetter">افتحي رسالتك ❤️</button><div class="secret-message" id="secretMessage">بعشقك يا أحلى حاجة في حياتي ❤💋</div></div></div></section>
+<section><div class="wrap"><h2 class="section-title">قلوب صغيرة.. وكلام من قلبي 💗</h2><p class="sub">اختاري قلب وشوفي مخبيلك إيه.</p><div class="hearts"><span class="heart" data-note="وجودك في حياتي أحلى هدية. ❤️">💗</span><span class="heart" data-note="كل يوم معاكي بيبقى أحلى من اللي قبله. 🌹">💖</span><span class="heart" data-note="هفضل أختارك من أول وجديد. 💋">💕</span><span class="heart" data-note="إنتِ حتة من قلبي يا همس. ❤️">💘</span></div><div class="heart-note" id="heartNote"></div></div></section>
+<section><div class="wrap"><h2 class="section-title">أغنيتنا 🎵</h2><p class="sub">تملي معاك — عمرو دياب</p><div class="card music-box"><div style="font-size:3rem">🎶</div><p class="music-help">اختار ملف الأغنية من جهازك لو عندك نسخة مسموح لك باستخدامها. المتصفح مش بيسمح بتشغيلها تلقائيًا قبل أول ضغطة.</p><input class="file-input" type="file" id="audioFile" accept="audio/*"><audio id="audio" controls loop class="hidden" style="width:100%"></audio><p class="music-help" id="audioStatus">بعد اختيار الملف، هتشتغل مع دخول همس للموقع.</p></div></div></section>
+<section><div class="wrap"><div class="card" style="text-align:center"><h2 class="section-title">وعد مني ليكي ❤️</h2><p style="line-height:2;font-size:1.15rem">ومهما عدى علينا من أيام، هفضل كل يوم أختارك من أول وجديد.</p><div class="rose-line">🌹 💗 🌹</div><h2 style="color:#ffd9e5">بحبك يا همس</h2></div></div></section>
+</main>
+<footer><div>اتعمل بكل الحب ❤️</div><strong>إلى همس.. من محمد</strong><div style="margin-top:10px">🌹 كل حكاية حلوة وليها بداية، وإنتِ أحلى بداياتي 🌹</div></footer>
+<script>
+const petals=document.getElementById('petals');
+for(let i=0;i<22;i++){let p=document.createElement('span');p.className='petal';p.textContent=['❤','♥','🌸','🌹'][i%4];p.style.left=Math.random()*100+'%';p.style.animationDuration=(9+Math.random()*12)+'s';p.style.animationDelay=(-Math.random()*18)+'s';p.style.fontSize=(12+Math.random()*17)+'px';petals.appendChild(p)}
+const message=`أجمل مسج لأجمل بنت في الدنيا، أجمل حاجة حصلتلي، وعوض ربنا ليا في الدنيا يوم ما عرفتك، والدنيا بقت ليها طعم تاني.
+
+إنتِ مش بس حبيبتي، إنتِ بنتي وسندي. أنا بحبك وهفضل أحبك لآخر يوم في عمري. مهما الدنيا حاولت تفرقنا، إنتِ روحي وقلبي ونور عيني.
+
+كل يوم بقضيه معاكي بحس إني أكتر إنسان محظوظ في الدنيا. بحبك مش بس عشان جمالك، لكن عشان قلبي اختارك تكوني نصي التاني، وعشان معاكي بحس إن قلبي مرتاح وإن الدنيا كلها بقت أحن وأجمل.
+
+ومهما عدى علينا من أيام، هفضل كل يوم أختارك من أول وجديد.`;
+let typed=false;
+function typeMessage(){if(typed)return;typed=true;let i=0,el=document.getElementById('letter');let timer=setInterval(()=>{el.textContent=message.slice(0,i+=3);if(i>=message.length)clearInterval(timer)},22)}
+const audio=document.getElementById('audio');
+document.getElementById('enter').addEventListener('click',()=>{document.getElementById('main').classList.remove('hidden');typeMessage();document.getElementById('main').scrollIntoView({behavior:'smooth'});if(audio.src)audio.play().catch(()=>{});});
+document.getElementById('audioFile').addEventListener('change',e=>{let f=e.target.files[0];if(!f)return;audio.src=URL.createObjectURL(f);audio.classList.remove('hidden');document.getElementById('audioStatus').textContent='تم اختيار الأغنية. اضغطي زر الدخول لتبدأ مع الحكاية، أو شغليها من المشغل.';});
+const start=new Date(2026,8,3,0,0,0);
+function updateCounter(){let diff=Math.max(0,Date.now()-start.getTime());let s=Math.floor(diff/1000),d=Math.floor(s/86400);s%=86400;let h=Math.floor(s/3600);s%=3600;let m=Math.floor(s/60);s%=60;document.getElementById('days').textContent=d.toLocaleString('ar-EG');document.getElementById('hours').textContent=String(h).padStart(2,'0');document.getElementById('minutes').textContent=String(m).padStart(2,'0');document.getElementById('seconds').textContent=String(s).padStart(2,'0')}
+updateCounter();setInterval(updateCounter,1000);
+function openSecret(){document.getElementById('secretMessage').style.display='block';document.getElementById('envelope').textContent='💖';}
+document.getElementById('openLetter').addEventListener('click',openSecret);document.getElementById('envelope').addEventListener('click',openSecret);document.getElementById('envelope').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openSecret()}});
+document.querySelectorAll('.heart').forEach(h=>h.addEventListener('click',()=>document.getElementById('heartNote').textContent=h.dataset.note));
+function showQuizResult(btn, resId) {let resultBox=document.getElementById(resId);resultBox.style.display='block';let parent=btn.parentElement;parent.querySelectorAll('.quiz-btn').forEach(b=>b.style.opacity='0.6');btn.style.opacity='1';btn.style.borderColor='var(--gold)';}
+function showCustomResult(btn, resId, text) {let resultBox=document.getElementById(resId);resultBox.textContent=text;resultBox.style.display='block';let parent=btn.parentElement;parent.querySelectorAll('.quiz-btn').forEach(b=>b.style.opacity='0.6');btn.style.opacity='1';btn.style.borderColor='var(--gold)';}
+</script>
+</body></html>
